@@ -178,6 +178,9 @@ input[type="text"] {
     margin-left: 2px;
     border: 1px solid #DDD;
 }
+input[type="text"]:focus {
+    border: 1px solid blue;
+}
 textarea {
     margin-top: 5px;
     margin-bottom: 15px;
@@ -185,6 +188,9 @@ textarea {
     width: 99%;
     margin-left: 2px;
     border: 1px solid #DDD;
+}
+textarea:focus {
+    border: 1px solid blue;
 }
 input[type="submit"] {
     padding: 5px;
